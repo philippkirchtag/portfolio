@@ -1,0 +1,5 @@
+base_url = "http://localhost:1111"  # Ändern nach dem Deployment
+title = "Mein Portfolio"
+description = "Portfolio-Website, die meine Projekte und Fähigkeiten zeigt"
+default_language = "de"
+build_search_index = true
