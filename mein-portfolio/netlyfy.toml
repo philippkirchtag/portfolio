@@ -1,0 +1,3 @@
+[build]
+  publish = "public"
+  command = "curl -sSf https://get.zola.rs | sh && ./zola build"
