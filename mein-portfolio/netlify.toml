@@ -1,0 +1,7 @@
+[build]
+  command = "cd mein-portfolio && zola build"
+  publish = "mein-portfolio/public"
+ 
+ 
+[build.environment]
+ZOLA_VERSION = "0.19.2"

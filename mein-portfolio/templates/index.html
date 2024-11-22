@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Mein Name</title>
+  <title>Portfolio - Philipp Kirchtag</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Philipp Kirchtag</h1>
+  </div>
+
   <header>
     <nav>
-      <h1>Mein Portfolio</h1>
       <ul>
         <li><a href="#about">Über mich</a></li>
         <li><a href="#projects">Projekte</a></li>
@@ -19,14 +23,15 @@
     </nav>
   </header>
 
-  <section id="about">
-    <h2>Über mich</h2>
-    <p>Diese Seite bietet Ihnen einen Einblick in meine bisherigen Leistungen und Projekte. Hier präsentiere ich nicht nur meine Fähigkeiten, sondern auch meine persönliche Entwicklung und Visionen für die Zukunft.</p>
-  </section>
+  <main>
+    <section id="about" class="fade-in">
+      <h2>Über mich</h2>
+      <p>Diese Seite bietet Ihnen einen Einblick in meine bisherigen Leistungen und Projekte. Hier präsentiere ich nicht nur meine Fähigkeiten, sondern auch meine persönliche Entwicklung und Visionen für die Zukunft.</p>
+    </section>
 
-  <section id="projects">
-    <h2>Projekte</h2>
-    <div class="project">
+    <section id="projects" class="fade-in">
+      <h2>Projekte</h2>
+      <div class="project">
         <h3>Diplomarbeit Garagenparkmanager</h3>
         <p>Beschreibung des Projekts...</p>
         <a href="https://github.com/sebastiankrallinger/Diplomarbeit_Garagenparkmanager_Krallinger_Kirchtag" target="_blank">Zum Repository</a>
@@ -36,47 +41,59 @@
         <p>Beschreibung des Projekts...</p>
         <a href="https://github.com/philippkirchtag/POS_Projekt_2024" target="_blank">Zum Repository</a>
       </div>
-    <div class="project">
-      <h3>MBot2 Projekt</h3>
-      <p>Beschreibung des Projekts...</p>
-      <a href="https://github.com/sebastiankrallinger/SYP_GRUPPE_3_2024" target="_blank">Zum Repository</a>
-    </div>
-    <div class="project">
+      <div class="project">
+        <h3>MBot2 Projekt</h3>
+        <p>Beschreibung des Projekts...</p>
+        <a href="https://github.com/sebastiankrallinger/SYP_GRUPPE_3_2024" target="_blank">Zum Repository</a>
+      </div>
+      <div class="project">
         <h3>CaSiiino</h3>
         <p>Beschreibung des Projekts...</p>
         <a href="https://github.com/sebastiankrallinger/SYP_Gruppe3_CaSiiino" target="_blank">Zum Repository</a>
       </div>
-  </section>
+    </section>
 
-  <section id="certificates">
-    <h2>Zertifikate & Badges</h2>
-    <ul>
-      <li>Zertifikat 1: Beispielzertifikat</li>
-      <li>Zertifikat 2: Weiteres Zertifikat</li>
-    </ul>
-  </section>
+    <section id="certificates" class="fade-in">
+      <h2>Zertifikate & Badges</h2>
+      <ul>
+        <li>Zertifikat 1: Beispielzertifikat</li>
+        <li>Zertifikat 2: Weiteres Zertifikat</li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Sie möchten mehr über mich erfahren oder haben Interesse an einer Zusammenarbeit? Kontaktieren Sie mich gerne.</p>
-    <form action="#" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+    <section id="contact" class="fade-in">
+      <h2>Kontakt</h2>
+      <p>Sie möchten mehr über mich erfahren oder haben Interesse an einer Zusammenarbeit? Kontaktieren Sie mich gerne.</p>
       
-      <label for="email">E-Mail:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Nachricht:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Absenden</button>
-    </form>
-  </section>
+      <div class="contact-form-container">
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Ihr Name">
+          
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required placeholder="Ihre E-Mail">
+          
+          <label for="message">Nachricht:</label>
+          <textarea id="message" name="message" required placeholder="Ihre Nachricht"></textarea>
+          
+          <button type="submit">Absenden</button>
+        </form>
+    
+        <div class="instagram-link">
+          <a href="https://www.instagram.com/philipp.kirchtag" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon" class="instagram-icon">
+            Folgen Sie mir auf Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2024 Mein Name. Alle Rechte vorbehalten.</p>
+    <p>&copy; 2024 Philipp Kirchtag. Alle Rechte vorbehalten.</p>
   </footer>
 
-  <link rel="stylesheet" href="/styles.css">
+  <!-- Skript für das Scrollen und die fade-in-Animation -->
+  <script src="script.js"></script>
 </body>
 </html>
