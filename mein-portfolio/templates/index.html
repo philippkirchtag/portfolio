@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Philipp Kirchtag</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-  <!-- Hero Section -->
+
+  <!-- Einführung mit Farbverlauf und Name in der Mitte -->
   <div class="hero">
-    <h1>Philipp Kirchtag</h1>
+    <img src="../static/i.jpg" alt="Philipp Kirchtag" class="hero-image">
+    <h1 class="hero-text">Philipp Kirchtag</h1>
   </div>
 
+  <!-- Header mit Navigation (fixiert) -->
   <header>
     <nav>
       <ul>
@@ -23,77 +26,144 @@
     </nav>
   </header>
 
-  <main>
-    <section id="about" class="fade-in">
-      <h2>Über mich</h2>
-      <p>Diese Seite bietet Ihnen einen Einblick in meine bisherigen Leistungen und Projekte. Hier präsentiere ich nicht nur meine Fähigkeiten, sondern auch meine persönliche Entwicklung und Visionen für die Zukunft.</p>
-    </section>
-
-    <section id="projects" class="fade-in">
-      <h2>Projekte</h2>
-      <div class="project">
-        <h3>Diplomarbeit Garagenparkmanager</h3>
-        <p>Beschreibung des Projekts...</p>
-        <a href="https://github.com/sebastiankrallinger/Diplomarbeit_Garagenparkmanager_Krallinger_Kirchtag" target="_blank">Zum Repository</a>
-      </div>
-      <div class="project">
-        <h3>Notiz-App</h3>
-        <p>Beschreibung des Projekts...</p>
-        <a href="https://github.com/philippkirchtag/POS_Projekt_2024" target="_blank">Zum Repository</a>
-      </div>
-      <div class="project">
-        <h3>MBot2 Projekt</h3>
-        <p>Beschreibung des Projekts...</p>
-        <a href="https://github.com/sebastiankrallinger/SYP_GRUPPE_3_2024" target="_blank">Zum Repository</a>
-      </div>
-      <div class="project">
-        <h3>CaSiiino</h3>
-        <p>Beschreibung des Projekts...</p>
-        <a href="https://github.com/sebastiankrallinger/SYP_Gruppe3_CaSiiino" target="_blank">Zum Repository</a>
-      </div>
-    </section>
-
-    <section id="certificates" class="fade-in">
-      <h2>Zertifikate & Badges</h2>
-      <ul>
-        <li>Zertifikat 1: Beispielzertifikat</li>
-        <li>Zertifikat 2: Weiteres Zertifikat</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="fade-in">
-      <h2>Kontakt</h2>
-      <p>Sie möchten mehr über mich erfahren oder haben Interesse an einer Zusammenarbeit? Kontaktieren Sie mich gerne.</p>
-      
-      <div class="contact-form-container">
-        <form action="#" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required placeholder="Ihr Name">
-          
-          <label for="email">E-Mail:</label>
-          <input type="email" id="email" name="email" required placeholder="Ihre E-Mail">
-          
-          <label for="message">Nachricht:</label>
-          <textarea id="message" name="message" required placeholder="Ihre Nachricht"></textarea>
-          
-          <button type="submit">Absenden</button>
-        </form>
-    
-        <div class="instagram-link">
-          <a href="https://www.instagram.com/philipp.kirchtag" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon" class="instagram-icon">
-            Folgen Sie mir auf Instagram
-          </a>
+  <section id="about" class="fade-in">
+    <h2>Über mich</h2>
+    <p>Willkommen auf meiner Portfolio-Seite! Hier präsentiere ich meine bisherigen Projekte, Fähigkeiten und Zertifikate. Ich bin ein leidenschaftlicher Entwickler und strebe danach, meine Fähigkeiten kontinuierlich zu verbessern und innovative Lösungen zu schaffen. Diese Seite gibt Ihnen einen Einblick in meine persönliche Entwicklung und meine Visionen für die Zukunft.</p>
+    <h2>Lebenslauf</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">Bis 2016</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Kindergarten & VS Tenneck</h3>
+            <p>Grundschulbildung in Tenneck.</p>
+          </div>
         </div>
       </div>
-    </section>
-  </main>
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">2016 - 2020</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Gymnasium St. Johann Unterstufe</h3>
+            <p>Abschluss der Unterstufe im Gymnasium St. Johann.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">2020 - Jetzt</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Informatik HTL Saalfelden</h3>
+            <p>Aktuell in Ausbildung an der HTL Saalfelden im Bereich Informatik.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">Sommer 2022</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Ferialjob Billa</h3>
+            <p>Erfahrung im Einzelhandel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">Sommer 2023</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Ferialpraktikum Eurofunk</h3>
+            <p>1 Monat Praktikum bei Eurofunk.</p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="timeline-date">Sommer 2024</span>
+        </div>
+        <div class="timeline-right">
+          <div class="timeline-content">
+            <h3>Ferialpraktikum Feratel</h3>
+            <p>1 Monat Praktikum bei Feratel.</p>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projekte</h2>
+    <div class="project">
+      <h3>Diplomarbeit Garagenparkmanager</h3>
+      <p>Beschreibung des Projekts...</p>
+      <a href="https://github.com/sebastiankrallinger/Diplomarbeit_Garagenparkmanager_Krallinger_Kirchtag" target="_blank" class="project-link">Zum Repository</a>
+    </div>
+    <div class="project">
+      <h3>Notiz-App</h3>
+      <p>Beschreibung des Projekts...</p>
+      <a href="https://github.com/philippkirchtag/POS_Projekt_2024" target="_blank" class="project-link">Zum Repository</a>
+    </div>
+    <div class="project">
+      <h3>MBot2 Projekt</h3>
+      <p>Beschreibung des Projekts...</p>
+      <a href="https://github.com/sebastiankrallinger/SYP_GRUPPE_3_2024" target="_blank" class="project-link">Zum Repository</a>
+    </div>
+    <div class="project">
+      <h3>CaSiiino</h3>
+      <p>Beschreibung des Projekts...</p>
+      <a href="https://github.com/sebastiankrallinger/SYP_Gruppe3_CaSiiino" target="_blank" class="project-link">Zum Repository</a>
+    </div>
+  </section>
+
+  <section id="certificates" class="fade-in">
+    <h2>Zertifikate & Badges</h2>
+    <ul>
+      <li>SAP Zertifikat</li>
+      <li>Cisco Cyber Security Zertifikat</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Kontakt</h2>
+    <p>Haben Sie Interesse an einer Zusammenarbeit oder möchten mehr über meine Arbeit erfahren? Ich freue mich darauf, von Ihnen zu hören! Bitte füllen Sie das Formular aus und ich werde mich so schnell wie möglich bei Ihnen melden.</p>
+    
+    <div class="contact-form-container">
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Ihr Name">
+        
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Ihre E-Mail">
+        
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" required placeholder="Ihre Nachricht"></textarea>
+        
+        <button type="submit">Absenden</button>
+      </form>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/philipp.kirchtag" target="_blank" class="social-icon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
+        </a>
+        <a href="https://github.com/philippkirchtag" target="_blank" class="social-icon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Octicons-mark-github.svg" alt="GitHub Icon">
+        </a>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2024 Philipp Kirchtag. Alle Rechte vorbehalten.</p>
   </footer>
 
-  <!-- Skript für das Scrollen und die fade-in-Animation -->
-  <script src="script.js"></script>
 </body>
 </html>
