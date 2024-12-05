@@ -137,6 +137,35 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+
+.contact-info {
+  display: flex;
+  justify-content: space-between; /* Gleichmäßige Verteilung der Boxen */
+  margin-bottom: 20px; /* Abstand nach unten */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Weißer Hintergrund mit Transparenz */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box {
+  text-align: center; /* Text zentrieren */
+  flex: 1; /* Gleiche Breite für alle Boxen */
+  margin: 0 10px; /* Abstand zwischen den Boxen */
+  padding: 10px;
+}
+
+.contact-box h3 {
+  font-size: 1.2rem;
+  color: #0073e6; /* Akzentfarbe */
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  font-size: 1rem;
+  color: #333;
+}
+
 /* Sektionen */
 section {
   padding: 2rem;
